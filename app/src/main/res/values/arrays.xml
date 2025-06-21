@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="healing_categories">
+        <item>Cafe</item>
+        <item>Resto</item>
+        <item>Warkop</item>
+        <item>Hotel</item>
+        <item>Karaoke</item>
+        <item>Arcade</item>
+        <item>Playground</item>
+        <item>Billiard</item>
+        <item>Bowling</item>
+        <item>Bar</item>
+    </string-array>
+</resources>
