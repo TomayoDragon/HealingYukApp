@@ -50,7 +50,7 @@ class ExploreFragment : Fragment() {
         // Bersihkan list sebelum diisi data baru untuk mencegah duplikat
         locations.clear()
 
-        val url = "http://192.168.100.175/healing_yuk_api/get_locations.php"
+        val url = "https://ubaya.xyz/native/160422100/get_locations.php"
         // Gunakan `requireActivity()` untuk konteks yang non-null dan aman di fragment
         val queue = Volley.newRequestQueue(requireActivity())
 

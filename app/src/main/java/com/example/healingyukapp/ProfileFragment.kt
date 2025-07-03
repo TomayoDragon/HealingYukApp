@@ -39,7 +39,7 @@ class ProfileFragment : Fragment() {
             return
         }
 
-        val url = "http://192.168.100.175/healing_yuk_api/get_profile_data.php"
+        val url = "https://ubaya.xyz/native/160422100/get_profile_data.php"
         val queue = Volley.newRequestQueue(requireActivity())
 
         val stringRequest = object : StringRequest(Method.POST, url,

@@ -49,7 +49,7 @@ class FavouriteFragment : Fragment() {
         // Kosongkan list sebelum diisi data baru
         favourites.clear()
 
-        val url = "http://192.168.100.175/healing_yuk_api/get_favourites.php"
+        val url = "https://ubaya.xyz/native/160422100/get_favourites.php"
         val queue = Volley.newRequestQueue(requireActivity())
 
         val stringRequest = object : StringRequest(Method.POST, url,

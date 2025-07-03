@@ -71,7 +71,7 @@ class LocationDetailActivity : AppCompatActivity() {
         val userId = sharedPreferences.getInt("user_id", -1)
         if (userId == -1) { return }
 
-        val url = "http://192.168.100.175/healing_yuk_api/add_favourite.php"
+        val url = "https://ubaya.xyz/native/160422100/add_favourite.php"
         val queue = Volley.newRequestQueue(this)
         val stringRequest = object : StringRequest(Method.POST, url,
             { response ->
@@ -101,7 +101,7 @@ class LocationDetailActivity : AppCompatActivity() {
         val userId = sharedPreferences.getInt("user_id", -1)
         if (userId == -1) { return }
 
-        val url = "http://192.168.100.175/healing_yuk_api/remove_favourite.php"
+        val url = "https://ubaya.xyz/native/160422100/remove_favourite.php"
         val queue = Volley.newRequestQueue(this)
         val stringRequest = object : StringRequest(Method.POST, url,
             { response ->
